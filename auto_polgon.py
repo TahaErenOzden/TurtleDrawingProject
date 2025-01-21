@@ -8,7 +8,7 @@ turtle_instance = turtle.Turtle()
 choose = input("polgon (p) or star(s) vote = p or s: ")
 num_sides = int(input("How many sides? "))
 angle = 360.0 / num_sides
-angle_star = 360.0 / num_sides *2
+angle_star = 360.0 / num_sides * 2
 side_lenght = int(input("How long side length? :"))
 
 def polgon():
